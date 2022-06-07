@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+h1, h2 {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #b1221d;
+    text-align: center;
+}
+
+#nav-bar {
+    float: right;
+    padding: 10px;
+}
+.nav-link {
+    padding: 10px 75px;
+    color: #b1221d;
+    font-weight: 700;
+    font-family: 'Permanent Marker', sans-serif;
+    text-decoration: none;
+}
+#header-img {
+    padding-left: 30px;
+}
+#sport-services-form {text-align: center;
+}
+#email {
+    border-radius: 10px;
+    text-align:center;
+    border: 2px solid grey;
+}
+#submit {
+    margin-top: 15px; 
+    background-color: #b1221d;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;}
