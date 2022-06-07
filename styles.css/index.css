@@ -5,10 +5,10 @@ h1, h2 {
     color: #b1221d;
     text-align: center;
 }
-
 #nav-bar {
     float: right;
     padding: 10px;
+    
 }
 .nav-link {
     padding: 10px 75px;
@@ -35,18 +35,155 @@ h1, h2 {
     border-radius: 20px;
     padding: 5px 20px;
 }
+.hiking-activity {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
+}
 .hiking-img {
-    float: left;
+    flex-basis: auto;
     padding-right: 50px;
 }
-.hiking-headline .hiking-subheadline {
-    float: right;
+.hiking-headline {
+    position: relative;
+    top: -15px; 
+    font-size: 20px;
+}
+
+.hiking-text {
+    position: relative;
+    top: 5px;
+}
+.paragliding-activity {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
 }
 .paragliding-img {
-    align: left;
+    flex-basis: auto;
     padding-right: 50px;
 }
-.paragliding-headline .paragliding-subheadline {
-    align: right;
+.paragliding-headline {
+    position: relative;
+    top: -15px; 
+    font-size: 20px;
+}
+
+.paragliding-text {
+    position: relative;
+    top: 5px;
+}
+.snowloarding-activity {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 150px;
+}
+.snowboarding-img {
+    flex-basis: auto;
+    padding-right: 50px;
+}
+.snowboarding-headline {
+    position: relative;
+    top: -15px; 
+    font-size: 20px;
+}
+.snowboarding-text {
+    position: relative;
+    top: 5px;
     }
-.paragliding-activity {display: block;}
+@media screen and (max-width: 400px)
+    {.hiking-text .paragliding-text .snowloarding-text {
+    display: block;
+       }}
+    iframe {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1220px;
+height: 686px;
+}    
+@media screen and (max-width: 1200px)
+{iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;}}
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 400px)
+{#pricing {
+display:block;
+}} 
+.hiking-price {
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-right: 5px;
+}
+@media screen and (max-width: 400px)
+{.hiking-price {
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}} 
+.paragliding-price {
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 400px)
+{.paragliding-price {
+display:block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}} 
+.snowboading-price {
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin-left: 5px;
+}
+@media screen and (max-width: 400px)
+{.snowboading-price {
+display:block;
+margin-left: auto;
+margin-right: auto;
+}} 
+.activity-price-headline {
+    background-color: azure;
+    padding: 30px 0;
+    margin: 0;
+    text-transform:uppercase;
+}
+.activity-price {
+    font-size: 20px;
+    font-weight: 700;
+}
+.select-button {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b1221d;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.activity-content {
+    margin-bottom: 30px;
+}
+.copyright {margin-top: 30px;
+margin-bottom: 0;}
