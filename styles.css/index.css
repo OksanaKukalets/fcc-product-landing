@@ -33,4 +33,20 @@ h1, h2 {
     color: white;
     border: 3px solid black;
     border-radius: 20px;
-    padding: 5px 20px;}
+    padding: 5px 20px;
+}
+.hiking-img {
+    float: left;
+    padding-right: 50px;
+}
+.hiking-headline .hiking-subheadline {
+    float: right;
+}
+.paragliding-img {
+    align: left;
+    padding-right: 50px;
+}
+.paragliding-headline .paragliding-subheadline {
+    align: right;
+    }
+.paragliding-activity {display: block;}
