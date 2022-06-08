@@ -227,3 +227,6 @@ margin-bottom: 0;}
     display:block;
     margin-left: auto;
     margin-right: auto;}}
+#footer-nav-bar {
+        float: right;
+        padding: 10px;}
