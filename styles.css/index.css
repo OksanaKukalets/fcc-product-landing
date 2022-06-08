@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 h1, h2 {
     font-family: 'Permanent Marker', sans-serif;
     color: #b1221d;
     text-align: center;
-    }
+}
 #nav-bar {
     float: right;
     padding: 10px;
-    
 }
 .nav-link {
-    padding: 10px 75px;
     color: #b1221d;
     font-weight: 700;
     font-family: 'Permanent Marker', sans-serif;
     text-decoration: none;
+    padding: 5px;
 }
 #header-img {
     padding-left: 30px;
@@ -51,7 +49,6 @@ h1, h2 {
     top: -15px; 
     font-size: 20px;
 }
-
 .hiking-text {
     position: relative;
     top: 5px;
@@ -71,7 +68,6 @@ h1, h2 {
     top: -15px; 
     font-size: 20px;
 }
-
 .paragliding-text {
     position: relative;
     top: 5px;
@@ -96,64 +92,75 @@ h1, h2 {
     top: 5px;
     }
 @media screen and (max-width: 400px)
-    {.hiking-activity{
-    display: inline-block;
-    padding-left: 0px;
-        }}
+    {.hiking-activity {
+        display: inline-block;
+        padding-left: 0px;
+}}
 @media screen and (max-width: 400px)
-    {.hiking-text {text-align: center;
-    padding-bottom: 10px;}}
+    {.hiking-text {
+        text-align: center;
+        padding-bottom: 10px;
+}}
 @media screen and (max-width: 400px)
     {.hiking-img {
         display: block;
         margin-left: auto;
-        margin-right: auto;}}
+        margin-right: auto;
+}}
 @media screen and (max-width: 400px)
-    {.paragliding-activity{
-    display: inline-block;
-    padding-left: 0px;
-        }}
+    {.paragliding-activity {
+        display: inline-block;
+        padding-left: 0px;
+}}
 @media screen and (max-width: 400px)
-        {.paragliding-text {text-align: center;
-            padding-bottom: 10px;}}
+    {.paragliding-text {
+        text-align: center;
+        padding-bottom: 10px;
+}}
 @media screen and (max-width: 400px)
-        {.paragliding-img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;}}  
+    {.paragliding-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}}  
 @media screen and (max-width: 400px)
     {.snowboarding-activity{
         display: inline-block;
         padding-left: 0px;
-            }}
+}}
 @media screen and (max-width: 400px)
-            {.snowboarding-text {text-align: center;}}
+    {.snowboarding-text {
+        text-align: center;
+}}
 @media screen and (max-width: 400px)
-            {.snowboarding-img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;}} 
-iframe {display: block;
-margin-left: auto;
-margin-right: auto;
-width: 1220px;
-height: 686px;
-}    
-@media screen and (max-width: 1200px)
-{iframe {
+    {.snowboarding-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}} 
+iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    height: auto;}}
+    width: 1220px;
+    height: 686px;
+}    
+@media screen and (max-width: 1200px)
+    {iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+}}
 #pricing {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 @media screen and (max-width: 400px)
-{#pricing {
-display:block;
+    {#pricing {
+        display:block;
 }} 
 .hiking-price {
     border: 1px solid black;
@@ -163,11 +170,11 @@ display:block;
     margin-right: 5px;
 }
 @media screen and (max-width: 400px)
-{.hiking-price {
-display:block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 20px;
+    {.hiking-price {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
 }} 
 .paragliding-price {
     border: 1px solid black;
@@ -178,11 +185,11 @@ margin-bottom: 20px;
     margin-right: 5px;
 }
 @media screen and (max-width: 400px)
-{.paragliding-price {
-display:block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 20px;
+    {.paragliding-price {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
 }} 
 .snowboarding-price {
     border: 1px solid black;
@@ -192,10 +199,10 @@ margin-bottom: 20px;
     margin-left: 5px;
 }
 @media screen and (max-width: 400px)
-{.snowboarding-price {
-display:block;
-margin-left: auto;
-margin-right: auto;
+    {.snowboarding-price {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
 }} 
 .activity-price-headline {
     background-color: azure;
@@ -220,13 +227,25 @@ margin-right: auto;
 .activity-content {
     margin-bottom: 30px;
 }
-.copyright {margin-top: 30px;
-margin-bottom: 0;}
+.copyright {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
 @media screen and (max-width: 400px)
-{#nav-bar {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;}}
+    {#nav-bar {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+}}
 #footer-nav-bar {
-        float: right;
-        padding: 10px;}
+    float: right;
+    padding: 10px;
+}
+.footer-nav-link {
+    color: #b1221d;
+    font-weight: 700;
+    font-family: 'Permanent Marker', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
