@@ -4,7 +4,7 @@ h1, h2 {
     font-family: 'Permanent Marker', sans-serif;
     color: #b1221d;
     text-align: center;
-}
+    }
 #nav-bar {
     float: right;
     padding: 10px;
@@ -20,7 +20,8 @@ h1, h2 {
 #header-img {
     padding-left: 30px;
 }
-#sport-services-form {text-align: center;
+#sport-services-form {
+    text-align: center;
 }
 #email {
     border-radius: 10px;
@@ -75,7 +76,7 @@ h1, h2 {
     position: relative;
     top: 5px;
 }
-.snowloarding-activity {
+.snowboarding-activity {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -95,10 +96,44 @@ h1, h2 {
     top: 5px;
     }
 @media screen and (max-width: 400px)
-    {.hiking-text .paragliding-text .snowloarding-text {
-    display: block;
-       }}
-    iframe {display: block;
+    {.hiking-activity{
+    display: inline-block;
+    padding-left: 0px;
+        }}
+@media screen and (max-width: 400px)
+    {.hiking-text {text-align: center;
+    padding-bottom: 10px;}}
+@media screen and (max-width: 400px)
+    {.hiking-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}}
+@media screen and (max-width: 400px)
+    {.paragliding-activity{
+    display: inline-block;
+    padding-left: 0px;
+        }}
+@media screen and (max-width: 400px)
+        {.paragliding-text {text-align: center;
+            padding-bottom: 10px;}}
+@media screen and (max-width: 400px)
+        {.paragliding-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}}  
+@media screen and (max-width: 400px)
+    {.snowboarding-activity{
+        display: inline-block;
+        padding-left: 0px;
+            }}
+@media screen and (max-width: 400px)
+            {.snowboarding-text {text-align: center;}}
+@media screen and (max-width: 400px)
+            {.snowboarding-img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;}} 
+iframe {display: block;
 margin-left: auto;
 margin-right: auto;
 width: 1220px;
@@ -149,7 +184,7 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 20px;
 }} 
-.snowboading-price {
+.snowboarding-price {
     border: 1px solid black;
     width: 250px;
     height: auto;
@@ -157,7 +192,7 @@ margin-bottom: 20px;
     margin-left: 5px;
 }
 @media screen and (max-width: 400px)
-{.snowboading-price {
+{.snowboarding-price {
 display:block;
 margin-left: auto;
 margin-right: auto;
@@ -187,3 +222,8 @@ margin-right: auto;
 }
 .copyright {margin-top: 30px;
 margin-bottom: 0;}
+@media screen and (max-width: 400px)
+{#nav-bar {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;}}
